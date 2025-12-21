@@ -1,0 +1,104 @@
+camera
+position			[0.0, 2.5, 5.0]
+look_at			[0.0, 1.2, 0.0]
+up				[0.0, 1.0, 0.0]
+angle				60.0 degrees
+near_clipping_plane	0.1
+far_clipping_plane	100.0
+end
+
+viewport
+width				1000 pixels
+height				1000 pixels
+image_file_name		star_wars
+end
+
+Raytracer
+task				2
+sampling			1
+recursive_level		1
+specular_reflexion	BLINN
+pixel_coordinate	center
+space				voxel
+end
+
+
+model
+file			darth_sidious_scene.obj
+translation		0.0		0.0		0.0
+rotation		0.0		0.0		0.0
+scale			0.5		0.5		0.5
+uv_format		origin_uv_top_left
+end
+
+model
+file			Darth_Sidious.obj
+translation		0.0		0.09		0.5
+rotation		0.0		0.0		0.0
+scale			0.5		0.5		0.5
+uv_format		origin_uv_bottom_left
+end
+
+model
+file			stormtrooper.obj
+translation	-1.1		0.055		0.0
+rotation		0.0		30.0		0.0
+scale			0.5		0.5		0.5
+uv_format		origin_uv_bottom_left
+end
+
+model
+file			stormtrooper.obj
+translation		1.1		0.055		0.0
+rotation		0.0		-45.0		0.0
+scale			0.51		0.53		0.51
+uv_format		origin_uv_bottom_left
+end
+
+model
+file			R2-D2.obj
+translation		1.5		0.055		2.0
+rotation		0.0		-130.0		0.0
+scale			0.5		0.5		0.5
+uv_format		origin_uv_bottom_left
+end
+
+model
+file			joda.obj
+translation		-0.2		0.09		1.5
+rotation		0.0		-180.0		0.0
+scale			0.5		0.5		0.5
+uv_format		origin_uv_bottom_left
+end
+
+model
+file			c-3po_v2.obj
+translation		-1.2	0.07		1.8
+rotation		0.0		-210.0	0.0
+scale			0.5		0.5		0.5
+uv_format		origin_uv_bottom_left
+end
+
+
+**********************************
+**	Lumière blanche		**
+**********************************
+lumiere_ambiante
+color 	0.2	0.2	0.2
+end
+
+**********************************
+**	Lumière blanche		**
+**********************************
+lumiere_ponctuelle
+color				1.0	1.0	1.0
+position   		0.0	4.0	2.0
+end
+
+**********************************
+**	Lumière blanche		**
+**********************************
+lumiere_directionnelle
+color				1.0	1.0	1.0
+orientation   		0.0	-1.0	-1.0
+end
