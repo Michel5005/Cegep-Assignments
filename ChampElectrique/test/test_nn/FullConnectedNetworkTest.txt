@@ -1,0 +1,7 @@
+file_name	FullConnectedNetworkTest.txt
+batch_network		false
+
+full_connected_layer	FullConnectedNetworkTest_FULL_CONNECTED_LAYER_0.txt
+full_connected_layer	FullConnectedNetworkTest_FULL_CONNECTED_LAYER_1.txt
+full_connected_layer	FullConnectedNetworkTest_FULL_CONNECTED_LAYER_2.txt
+

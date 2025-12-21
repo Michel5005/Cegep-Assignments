@@ -1,0 +1,197 @@
+camera
+position			[-5, 0.0, 2.0]
+look_at				[0.0, 0.0, 0.0]
+up				[0.0, 0.0, 1.0]
+angle				65.0 degrees
+near_clipping_plane	0.1
+far_clipping_plane	100.0
+end
+
+/*
+viewport
+width			500 pixels
+height			500 pixels
+image_file_name		tube
+end
+*/
+
+/*
+raytracer
+task			1
+sampling		1
+recursive_level		3
+reflexion_algorithm	blinn
+pixel_coordinate	top_left
+space			linear
+color_normalization	clamp_channel
+end
+*/
+
+#########
+#LE PLAN
+#########
+primitive
+material_name	plan_xy_z=0
+plane
+position	0.0	0.0	0.0
+normal		0.0	0.0	1.0
+end
+end
+
+/*
+material
+name	plan_xy_z=0
+color	0.8	0.8	0.6
+ka	0.1
+kd	0.4
+ks	0.2
+kr	0.2
+end	#end material
+*/
+
+##########
+#LE DISQUE
+##########
+primitive
+material_name	matetiel_disk
+disk
+position	0.0	2.0	0.0
+normal		0.0	2.0	1.0
+ray		1.0
+end
+end
+
+
+##########
+#LA SPHÈRE 
+##########
+primitive
+material_name	sphere
+sphere
+position	0.0		0.0		0.0
+ray		0.2
+end
+end
+
+/*
+material
+name	sphere
+color	1.0 	1.0		1.0
+ka	0.2
+kd	0.7
+p	0.0
+ks	0.7
+kr	0.8
+end	#end material_name
+*/
+
+##########
+#LE CUBE
+##########
+primitive
+material_name	matetiel_cube
+cube
+position	0.0	2.0	0.0
+size		2.0
+end
+end
+
+############
+#LE TRIANGLE
+############
+primitive
+material_name	materiel_triangle
+triangle
+point	0.0	2.0	0.0
+point	2.0	0.0	0.0
+point	0.0	0.0	2.0
+end
+end
+
+############
+#LE BTRIANGLE
+############
+primitive
+material_name	materiel_btriangle
+btriangle
+point	0.0	2.0	0.0
+point	2.0	0.0	0.0
+point	0.0	0.0	2.0
+end
+end
+
+#############
+#LE TUBE VERT
+#############
+primitive
+material_name	tube_vert
+tube
+point	0.0	2.0	0.0
+point	0.0	2.0	1.0
+ray		1.0
+end
+end
+
+/*
+material
+name	tube_vert
+color	0.4 	1.0		0.4
+ka	0.2
+kd	0.4
+p	1.0
+ks	0.9
+kr	0.4
+end	#end material
+*/
+
+############
+#LE CYLINDRE
+############
+primitive
+material_name	materiel_cylindre
+cylinder
+point	0.0	2.0	0.0
+point	0.0	2.0	1.0
+ray		1.0
+end
+end
+
+############
+#LE CONE
+############
+primitive
+material_name	materiel_cone
+cylinder
+point	0.0	2.0	0.0
+point	0.0	2.0	1.0
+ray		1.0
+end
+end
+
+############
+#LE TORE
+############
+primitive
+material_name	materiel_cone
+torus
+position	0.0	2.0	0.0
+normal		0.0	2.0	1.0
+major_radius	2.0
+minor_radius	1.0
+end
+end
+
+###########################
+#LA GÉOMÉTRIE TRANSFORMABLE
+###########################
+primitive
+material_name	materiel_cone
+geometry
+cube
+position	0.0	2.0	0.0
+size		4.0
+end
+end
+
+
+

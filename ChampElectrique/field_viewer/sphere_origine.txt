@@ -1,0 +1,6 @@
+sphere_uniformly_charged
+
+position 		0.0	0.0	0.0
+ray				1.0
+electric_charge	4e-6
+end

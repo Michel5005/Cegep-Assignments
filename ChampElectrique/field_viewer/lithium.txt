@@ -1,0 +1,44 @@
+# Cette scÃ¨ne contient deux plaques et une sphÃ¨re.
+
+camera
+
+position		0.0	0.0	4.0
+look_at			0.0	0.0	0.0
+up				0.0	1.0	0.0
+end
+
+field_setup
+
+position				0.0	0.0	0.0
+size					6.0
+nb						30
+multiplicator_of_power	4
+end
+
+sphere_uniformly_charged
+
+position			0.0		0.0		0.0
+ray					0.4
+electric_charge		3.0e-6
+end
+
+sphere_uniformly_charged
+
+position			1.732	1.0		0.0
+ray					0.2
+electric_charge		-1.0e-6
+end
+
+sphere_uniformly_charged
+
+position			-1.732	1.0		0.0
+ray					0.2
+electric_charge		-1.0e-6
+end
+
+sphere_uniformly_charged
+
+position			0.0		-2.0	0.0
+ray					0.2
+electric_charge		-1.0e-6
+end

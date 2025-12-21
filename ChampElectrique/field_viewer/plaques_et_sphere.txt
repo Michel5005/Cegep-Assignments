@@ -1,0 +1,37 @@
+# Cette scène contient deux plaques et une sphère.
+
+camera
+
+position		0.0	0.0	8.0
+look_at			0.0	0.0	0.0
+up				0.0	1.0	0.0
+end
+
+field_setup
+
+position				0.0	0.0	0.0
+size					10.0
+nb						30
+multiplicator_of_power	3
+end
+
+infinite_plate_uniformly_charged
+
+position 			0.0		-4.0	0.0
+normal				0.0		1.0		0.0
+surface_charge_density		2.0e-8
+end
+
+infinite_plate_uniformly_charged
+
+position 			0.0		4.0	0.0
+normal				0.0		1.0		0.0
+surface_charge_density		-2.0e-8
+end
+
+sphere_uniformly_charged
+
+position			0.0		0.0		0.0
+ray					1.5
+electric_charge		1.5e-6
+end

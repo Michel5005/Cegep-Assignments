@@ -1,0 +1,167 @@
+file_name	writeTest.txt
+
+camera
+position	[-5.0, 0.0, 2.0]
+look_at		[0.0, 0.0, 0.0]
+up		[0.37139067635410367, 0.0, 0.9284766908852593]
+angle			65.0 degrees
+near_clipping_plane	0.1
+far_clipping_plane	100.0
+end
+
+
+primitive
+
+material_name	plan_xy_z=0
+
+plane
+
+position	[0.0, 0.0, 0.0]
+normal		[0.0, 0.0, 1.0]
+end
+
+end
+
+primitive
+
+material_name	matetiel_disk
+
+disk
+
+position	[0.0, 2.0, 0.0]
+normal		[0.0, 2.0, 1.0]
+ray		1.0
+end
+
+end
+
+primitive
+
+material_name	sphere
+
+sphere
+
+position	[0.0, 0.0, 0.0]
+ray		0.2
+end
+
+end
+
+primitive
+
+material_name	matetiel_cube
+
+cube
+
+position	[0.0, 2.0, 0.0]
+size		2.0
+end
+
+end
+
+primitive
+
+material_name	materiel_triangle
+
+triangle
+
+point	[0.0, 2.0, 0.0]
+point	[2.0, 0.0, 0.0]
+point	[0.0, 0.0, 2.0]
+end
+
+end
+
+primitive
+
+material_name	materiel_btriangle
+
+btriangle
+
+point	[0.0, 2.0, 0.0]
+point	[2.0, 0.0, 0.0]
+point	[0.0, 0.0, 2.0]
+normal	[-0.5773502691896258, -0.5773502691896258, -0.5773502691896258]
+normal	[-0.5773502691896258, -0.5773502691896258, -0.5773502691896258]
+normal	[-0.5773502691896258, -0.5773502691896258, -0.5773502691896258]
+uv	[0.0, 0.0]
+uv	[0.0, 0.0]
+uv	[0.0, 0.0]
+end
+
+end
+
+primitive
+
+material_name	tube_vert
+
+tube
+
+position		[0.0, 2.0, 0.0]
+position		[0.0, 2.0, 1.0]
+ray		1.0
+end
+
+end
+
+primitive
+
+material_name	materiel_cylindre
+
+cylinder
+
+position		[0.0, 2.0, 0.0]
+position		[0.0, 2.0, 1.0]
+ray		1.0
+end
+
+end
+
+primitive
+
+material_name	materiel_cone
+
+cylinder
+
+position		[0.0, 2.0, 0.0]
+position		[0.0, 2.0, 1.0]
+ray		1.0
+end
+
+end
+
+primitive
+
+material_name	materiel_cone
+
+torus
+
+position	[0.0, 2.0, 0.0]
+normal	[0.0, 2.0, 1.0]
+major_radius		2.0
+minor_radius		1.0
+end
+
+end
+
+primitive
+
+material_name	materiel_cone
+
+geometry
+
+scale		[1.0, 1.0, 1.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[0.0, 0.0, 0.0]
+
+cube
+
+position	[0.0, 2.0, 0.0]
+size		4.0
+end
+
+end
+
+end
+
+

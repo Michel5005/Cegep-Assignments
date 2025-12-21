@@ -1,0 +1,23 @@
+# Situation A : Attirer avec une tige chargée. 
+
+camera
+
+Position	0.0	0.10	0.2
+look_at		0.0	0.10	0.0
+up			0.0	1.0		0.0
+end
+
+field_setup
+
+position				0.0	0.1	0.0
+size					0.4
+nb						20
+multiplicator_of_power	7
+end
+
+TRUC
+
+position 				0.0	0.05	0.0
+position				0.0	0.20	0.0
+electric_charge			-5.0e-6
+end

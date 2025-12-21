@@ -1,0 +1,22 @@
+# Situation A : La tige finie sur l’axe y. 
+
+camera
+
+position	0.0	0.4	1.0
+look_at		0.0	0.4	0.0
+up			0.0	1.0	0.0
+end
+
+field_setup
+position		0.0	0.3	0.0
+size			2.0
+nb				16
+multiplicator_of_power	6
+end
+
+TRUC
+
+position 			0.0	0.4	0.0
+position			0.0	0.8	0.0
+electric_charge		-8e-6
+end

@@ -1,0 +1,30 @@
+# Situation 2 : Le principe de superposition appliqué aux PPIUC 
+
+camera
+
+position		0.0	0.2	0.4
+look_at			0.0	0.2	0.0
+up			0.0	1.0	0.0
+end
+
+field_setup
+
+position		0.0	0.0	0.0
+size			0.5
+nb			20
+multiplicator_of_power	3
+end
+
+infinite_plate_uniformly_charged
+
+position 			0.0	0.15	0.0
+normal				0.0	1.0	0.0
+surface_charge_density		2.5e-9
+end
+
+infinite_plate_uniformly_charged
+
+position 			0.0	0.25	0.0
+normal				0.0	1.0	0.0	
+surface_charge_density		-2.5e-9
+end

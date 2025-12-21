@@ -1,0 +1,23 @@
+# Situation A : Le champ électrique vectoriel d’une particule
+
+camera
+
+position		0.0	0.0	4.0
+look_at			0.0	0.0	0.0
+up				0.0	1.0	0.0
+end
+
+field_setup
+
+position		3.0	0.0	0.0
+size			8.0
+nb				20
+multiplicator_of_power	4
+end
+
+sphere_uniformly_charged
+
+position 			4.0	1.0	0.0
+ray					1.0	
+electric_charge		-4e-6
+end

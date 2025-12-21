@@ -1,0 +1,30 @@
+# Situation C : Deux sphères chargées. 
+# Remarque : Dans l'énoncé, on dit seulement que les sphères sont séparées par 10 m.
+
+camera
+
+position		0.0	0.0	20.0
+look_at			0.0	0.0	0.0
+up			0.0	1.0	0.0
+end
+
+field_setup
+position		0.0	0.0	0.0
+size			20.0
+nb			20
+multiplicator_of_power	5
+end
+
+sphere_uniformly_charged
+
+position 		-5.0	0.0	0.0
+ray			2.0	
+electric_charge		4.021e-4
+end
+
+sphere_uniformly_charged
+
+position 		5.0	0.0	0.0
+ray			3.0	
+electric_charge		-2.262e-4
+end

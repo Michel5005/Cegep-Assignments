@@ -1,0 +1,19 @@
+Message SIMFieldViewer --- Une sc�ne vide a �t� initialis�e.
+Message SIMFieldViewer --- La sc�ne 'Chap1.4-SA.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.4-SA.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.4-SC.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.4-SC.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.4-SC.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'sphere_origine.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.9-S2.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.8a-SA.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
+Message SIMFieldViewer --- La sc�ne 'Chap1.4-SC.txt' a �t� lue et ex�cut�e avec succ�s.
+Message SIMFieldViewer --- Il y a activation des param�tres du champ.
