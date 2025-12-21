@@ -1,0 +1,191 @@
+/*
+   Param�tres du rendu
+*/
+
+camera
+position	[-10.0, -8.0, 4.0]
+look_at		[0.0, 0.0, 0.0]
+up		[0.23281009858985938, 0.1862480788718875, 0.9545214042184235]
+angle			65.0 degrees
+near_clipping_plane	0.1
+far_clipping_plane	100.0
+end
+
+viewport
+width		500 pixels
+height		500 pixels
+image_file_name	modele_msr
+end
+
+raytracer
+task			1
+sampling		1
+recursive_level		6
+reflexion_algorithm	blinn
+pixel_coordinate	top_left
+space			linear
+color_normalization	clamp_channel
+end
+
+/*
+   Mod�les de la sc�ne
+*/
+
+model
+file		pyramide-9-4-1.msr
+scale		[1.0, 1.0, 1.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[0.0, 0.0, 0.0]
+uv_format	default
+end	#end model
+
+model
+file		pyramide-9-4-1.msr
+scale		[2.0, 2.0, 3.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[20.0, 0.0, 0.0]
+uv_format	default
+end	#end model
+
+model
+file		tour_de_bloc.msr
+scale		[1.0, 1.0, 1.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[0.0, 5.0, 0.0]
+uv_format	default
+end	#end model
+
+model
+file		tour_de_bloc.msr
+scale		[1.0, 1.0, 1.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[0.0, -5.0, 0.0]
+uv_format	default
+end	#end model
+
+model
+file		tour_de_bloc.msr
+scale		[1.0, 1.0, 1.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[-5.0, 0.0, 0.0]
+uv_format	default
+end	#end model
+
+model
+file		tour_de_bloc.msr
+scale		[1.0, 1.0, 1.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[5.0, 0.0, 0.0]
+uv_format	default
+end	#end model
+
+/*
+   Primitives de la sc�ne
+*/
+
+primitive
+material_name	plan_xy_z=0
+plane
+position	[0.0, 0.0, 0.0]
+normal		[0.0, 0.0, 1.0]
+end
+
+end	#end primitive
+
+primitive
+material_name	cube
+geometry
+scale	[4.0, 4.0, 8.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[20.0, 20.0, 0.0]
+cube
+position	[0.0, 0.0, 0.5]
+size		1.0
+end
+
+
+end
+
+end	#end primitive
+
+primitive
+material_name	sphere
+geometry
+scale	[1.0, 1.0, 2.0]
+rotation	[0.0, 0.0, 0.0]
+translation	[20.0, 20.0, 4.0]
+sphere
+position	[0.0, 0.0, 0.0]
+ray		1.0
+end
+
+
+end
+
+end	#end primitive
+
+/*
+   Mat�riaux de la sc�ne
+*/
+
+material
+name	plan_xy_z=0
+color	[ 0.8, 0.8, 0.8, 1.0 ]
+ka	0.1
+kd	0.4
+ks	0.2
+p	0.0
+kr	0.15
+kt	0.0
+n	1.0
+shininess	20.0
+end	#end material
+
+material
+name	cube
+color	[ 1.0, 1.0, 1.0, 1.0 ]
+ka	0.02
+kd	0.05
+ks	0.1
+p	0.0
+kr	0.0
+kt	0.9
+n	1.4
+shininess	20.0
+end	#end material
+
+material
+name	sphere
+color	[ 1.0, 1.0, 0.0, 1.0 ]
+ka	0.2
+kd	0.3
+ks	0.7
+p	0.0
+kr	0.0
+kt	0.7
+n	2.0
+shininess	20.0
+end	#end material
+
+/*
+   Sources de lumi�re de la sc�ne
+*/
+
+ambient_light
+color			[ 1.0, 1.0, 1.0, 1.0 ]
+end
+
+point_light
+color			[ 1.0, 1.0, 1.0, 1.0 ]
+position		[0.0, 0.0, 5.0]
+amplification	1.0
+constant_attenuator	1.0
+linear_attenuator	0.0
+quadratic_attenuator	0.2
+end
+
+directional_light
+color			[ 0.7, 0.7, 0.7, 1.0 ]
+orientation		[0.5773502691896258, 0.5773502691896258, -0.5773502691896258]
+end
+
