@@ -1,0 +1,29 @@
+particle
+position				1.0		1.0		1.0
+charge_electrique		3e-6
+end
+
+particle
+position				-1.0	-1.0	-1.0
+charge_electrique		4e-6
+end
+
+particle
+position				4.0		4.0		2.0
+charge_electrique		-7e-6
+end
+
+particle
+position				3.0		1.0		0.0
+charge_electrique		-2e-6
+end
+
+particle
+position				13.0	-5.0	7.0
+charge_electrique		3e-6
+end
+
+particle
+position				9.0		8.0		-7.0
+charge_electrique		9e-6
+end
