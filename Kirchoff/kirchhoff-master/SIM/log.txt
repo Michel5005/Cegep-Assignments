@@ -1,0 +1,4 @@
+SMathTest ---> Test non effectu� : public void test_quadricRealRoot()
+SMathTest ---> Test non effectu� : public void test_cubicRealRoot()
+SMathTest ---> Test non effectu� : public void test_linearRealRoot()
+SMathTest ---> Test non effectu� : public void test_quarticRealRoot()
